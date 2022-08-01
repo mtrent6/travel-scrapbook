@@ -11,7 +11,7 @@ export default function Dubrovnik() {
             <div style={{ width: "100%", height: 300 }}>
                 <img style={{ width: "100%", height: "100%" }} src={Roof} alt="island" />
             </div>
-            <div style={{ width: "100%", height: 400 }}>
+            <div style={{ width: "100%", height: 500 }}>
                 <img style={{ width: "100%", height: "100%" }} src={Rocks} alt="island" />
             </div>
 
