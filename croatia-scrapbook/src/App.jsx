@@ -11,7 +11,8 @@ function App() {
           Home Page
         </p>
         <Link to="/dubrovnik">Dubrovnik</Link> 
-
+        <Link to="/krka">Krka</Link> 
+        <Link to="/pula">Pula</Link> 
       </header>
     </div>
   );
