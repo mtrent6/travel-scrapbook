@@ -14,8 +14,6 @@ export default function Krka() {
             <div style={{ width: "100%", height: 500 }}>
                 <img style={{ width: "100%", height: "100%" }} src={Water} alt="island" />
             </div>
-
-
         </>
     );
 }
