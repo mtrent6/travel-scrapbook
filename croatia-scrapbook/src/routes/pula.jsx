@@ -7,6 +7,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 export default function Pula() {
     return (
         <>
+            <p style={{textAlign: 'center', fontFamily: 'optima'}}>Pula</p>
             <div style={{ width: "100%", height: 500 }}>
                 <LazyLoadImage delayTime={300} alt="island" effect="blur" height={500} width={"100%"} src={Dome} />
             </div>

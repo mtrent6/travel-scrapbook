@@ -6,10 +6,9 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 export default function Krka() {
-    const s = <img style={{ width: "100%", height: "100%" }} src={Split} alt="island" />
-
     return (
         <>
+            <p style={{textAlign: 'center', fontFamily: 'optima'}}>Krka/Split</p>
             <div style={{ width: "100%", height: 500 }}>
                 <LazyLoadImage delayTime={300} alt="island" effect="blur" height={500} width={"100%"} src={Split} />
             </div>

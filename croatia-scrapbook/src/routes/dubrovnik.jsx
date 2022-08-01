@@ -8,6 +8,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 export default function Dubrovnik() {
     return (
         <>
+           <p style={{textAlign: 'center', fontFamily: 'optima'}}>Dubrovnik</p>
             <div style={{ width: "100%", height: 300 }}>
                 <LazyLoadImage delayTime={300} alt="island" effect="blur" height={300} width={"100%"} src={DubrovnikIsland} />
             </div>
