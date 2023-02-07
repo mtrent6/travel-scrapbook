@@ -9,9 +9,44 @@ function App() {
         <p>
           Home Page
         </p>
-        <Link to="/dubrovnik">Dubrovnik</Link> 
-        <Link to="/krka">Krka</Link> 
-        <Link to="/pula">Pula</Link> 
+        <b>Croatia</b>
+        <div>
+          <Link to="/croatia/dubrovnik">Dubrovnik</Link>
+        </div>
+        <div>
+          <Link to="/croatia/krka">Krka</Link>
+        </div>
+        <div>
+          <Link to="/croatia/pula">Pula</Link>
+        </div>
+
+
+        <b>Peru</b>
+        <div>
+          <Link to="/peru/machupicchu">Machu Picchu</Link>
+        </div>
+        <div>
+          <Link to="/peru/lima">Lima</Link>
+        </div>
+        <div>
+          <Link to="/peru/cusco">Cusco</Link>
+        </div>
+
+
+
+        <b>Germany</b>
+        <div>
+          <Link to="/germany/wiesbaden">Wiesbaden</Link>
+        </div>
+        <div>
+          <Link to="/germany/garmisch">Garmisch</Link>
+        </div>
+        <div>
+          <Link to="/germany/munich">Munich</Link>
+        </div>
+
+
+
       </header>
     </div>
   );
