@@ -13,6 +13,9 @@ import MachuPicchu from './places/peru/machupicchu';
 import Garmisch from './places/germany/garmisch';
 import Munich from './places/germany/munich';
 import Wiesbaden from './places/germany/wiesbaden';
+import Croatia from './places/croatia/croatia';
+import Germany from './places/germany/germany';
+import Peru from './places/peru/peru';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +31,9 @@ root.render(
       <Route path="/germany/garmisch" element={<Garmisch />} />
       <Route path="/germany/munich" element={<Munich />} />
       <Route path="/germany/wiesbaden" element={<Wiesbaden />} />
-
+      <Route path="/croatia/" element={<Croatia/>}/>
+      <Route path="/germany/" element={<Germany/>}/>
+      <Route path="/peru/" element={<Peru/>}/>
     </Routes>
   </BrowserRouter>
 );

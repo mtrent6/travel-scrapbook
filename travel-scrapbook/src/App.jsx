@@ -4,52 +4,24 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Home Page
-        </p>
-        <b>Croatia</b>
-        <div>
-          <Link to="/croatia/dubrovnik">Dubrovnik</Link>
-        </div>
-        <div>
-          <Link to="/croatia/krka">Krka</Link>
-        </div>
-        <div>
-          <Link to="/croatia/pula">Pula</Link>
-        </div>
+    //  style={{ backgroundImage: `url(${background})` }}>
+    <div style={{backgroundColor: "#F7F7F2"}}>
+      <header style={{ textAlign: "center", fontFamily: 'optima', fontSize: 20, fontWeight: 55, paddingTop: "30px"}}>Travel Scrapbook</header>
+      <div className="App">
 
-
-        <b>Peru</b>
-        <div>
-          <Link to="/peru/machupicchu">Machu Picchu</Link>
+        <div className='link-div'>
+          <Link to="/croatia/">Croatia</Link>
         </div>
-        <div>
-          <Link to="/peru/lima">Lima</Link>
+        <div className='link-div'>
+          <Link to="/peru/">Peru</Link>
         </div>
-        <div>
-          <Link to="/peru/cusco">Cusco</Link>
+        <div className='link-div'>
+          <Link to="/germany/">Germany</Link>
         </div>
-
-
-
-        <b>Germany</b>
-        <div>
-          <Link to="/germany/wiesbaden">Wiesbaden</Link>
-        </div>
-        <div>
-          <Link to="/germany/garmisch">Garmisch</Link>
-        </div>
-        <div>
-          <Link to="/germany/munich">Munich</Link>
-        </div>
-
-
-
-      </header>
+      </div>
     </div>
   );
 }
+
 
 export default App;

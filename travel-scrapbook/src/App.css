@@ -1,3 +1,33 @@
 .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F7F7F2;
+}
+
+.link-div {
+    padding: 40px
+}
+
+a {
+    background-color: rgba(119, 1, 1, 0.8);
+    box-shadow: 0 5px 0 rgb(55, 3, 3);
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #670101;
+    cursor: pointer;
+}
+
+a:active {
+    box-shadow: none;
+    top: 5px;
 }

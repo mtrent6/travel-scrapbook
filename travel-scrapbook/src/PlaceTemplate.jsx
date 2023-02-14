@@ -5,7 +5,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import { importAll } from './helpers';
 
 export default function PlaceTemplate(props) {
-    const { imagePlace, name } = props
+    const { imagePlace, name, country } = props
     const [images, setImages] = useState([''])
 
 
@@ -17,6 +17,8 @@ export default function PlaceTemplate(props) {
 
     return (
         <>
+            <a href={`/${country}`} style={{ position: 'absolute', top: 2, left: 2, borderRadius: "10px"}}>&#8249;</a>
+
             <p style={{ textAlign: 'center', fontFamily: 'optima', fontSize: 20, fontWeight: 550 }}>{name}</p>
             {images.map((image, i) => {
                 return (
